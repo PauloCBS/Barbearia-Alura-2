@@ -1,0 +1,61 @@
+.cabeçalho{
+    text-align: left;
+    margin-left: 15px;
+}
+
+body{
+    background-color: honeydew;
+    
+}
+
+img{
+ width: 100%;
+}
+
+.principal{
+    background-color: grey;
+}
+
+.titulo1 {
+
+    text-align: center;
+}
+p {
+
+    text-align: center;
+}
+
+#missao {
+
+    font-size: 20px;
+}
+
+em strong{
+
+    color: red;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right:20% ;
+    padding: 30px;
+}
+
+ul li {
+    font-style: italic;
+    
+}
+.beneficios{
+    background-color: honeydew;
+
+}
+h2{
+    text-align: center;
+}
+
+.imagem-beneficios {
+    width: 50%;
+    padding:  20px;
+}
