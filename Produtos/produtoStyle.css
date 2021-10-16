@@ -1,5 +1,6 @@
 body{
 margin: 0%;
+width: 100%;
 }
 
 .caixa {
@@ -33,3 +34,37 @@ nav a {
 
 
 }
+main{
+    width: 100%;
+}
+.produtos{
+    width: 100%;
+
+}
+.produtos ul{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    margin: 0 1,5%;
+    padding: 20px 10px; 
+    box-sizing: border-box ;
+}
+
+.produtos h2 {
+    font-weight: bold;
+}
+
+.descrição{
+    font-size: 18px;
+}
+
+.Preço {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
