@@ -1,28 +1,25 @@
-body{
-margin: 0%;
-width: 100%;
-}
-
-.caixa {
-width: 100%;
-
-margin: 0 auto;
-}
-
 header{
     background-color: #bbbbbb;
     padding: 20px 0 ;
 }
 
+
+.caixa {
+    position: relative;
+	width: 100%;
+	margin: 0 auto;
+    }
+    
 nav{
     position: absolute;
-    top: 15%;
-    right: 7%;
+	top: 110px;
+	right: 0;
+    padding-right: 30px;
 }
 
 nav li{
     display: inline;
-    margin-left: 15px;
+    margin: 0 0 0 15px;
 }
 
 nav a {
@@ -34,30 +31,59 @@ nav a {
 
 
 }
+
+nav a:hover{
+    color: coral;
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: darkgrey;
+}
+
 main{
     width: 100%;
 }
 .produtos{
-    width: 100%;
+    width: 90%;
+	margin: 0 auto;
+	padding: 50px 0;
 
 }
-.produtos ul{
-    padding: 20px 0;
-    text-align: center;
-}
+
 
 .produtos li {
     display: inline-block;
-    text-align: center;
-    margin: 0 1,5%;
-    padding: 20px 10px; 
-    box-sizing: border-box ;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover{
+
+    color: coral;
+    border-color: coral;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+    font-style: bold;
+}
+
+.produtos li:active {
+    color: darkgrey;
+    border-color: darkgrey;
 }
 
 .produtos h2 {
-    font-weight: bold;
+	font-size: 30px;
+	font-weight: bold;
 }
-
 .descrição{
     font-size: 18px;
 }
