@@ -94,3 +94,13 @@ main{
     margin-top: 10px;
 }
 
+footer div {
+    background: url(../Produtos/bg.jpg);
+    text-align: center;
+}
+footer p {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
