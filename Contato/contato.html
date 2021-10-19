@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos</title>
+    <title>Contatos</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="produtostyle.css">
-    
+    <link rel="stylesheet" href="../Produtos/produtostyle.css">
+    <link rel="stylesheet" href="contato.css">
 </head>
 <body>
     <header>
         <div class="caixa">
-            <h1><img src="logo.png"></h1>
+            <h1><img src="../Produtos/logo.png"></h1>
             <nav>
                 <ul>
                     <li><a href="../pagina principal/index.html" >Home</a></li>
@@ -22,10 +22,55 @@
             </nav>
         </div>
     </header>
- 
+    <main>
+        <div class="formulario">
+            <form class="formulario" action="">
+
+                <label for="nomecompleto" required>Nome Completo</label>
+                <input class="input-padrao"  required type="text" id="nomecompleto">
+
+                <label for="email">E-mail</label>
+                <input class="input-padrao" required  placeholder="email@dominio.com" type="email" id="email">
+
+                <label for="telefone">Telefone</label>
+                <input class="input-padrao" required placeholder="(XX) XXXXXXXX "  type="tel" id="telefone">
+
+                <label for="Mensagen">Mensagem</label>
+                <textarea class="input-padrao" name="" id="Mensagem"></textarea>
+
+                <fieldset>
+                <legend>Como prefere o nosso Contato ?</legend>
+
+                <label for="radio-e-mail">E-mail</label>
+                <input name="contato" id="radio-e-mail" type="radio" value = "e-mail"> 
+
+                <label for="radio-telefone">Telefone</label>
+                <input name="contato" id="radio-telefone" type="radio" value = "telefone"> 
+
+                <label for="radio-whatsapp">Whatsapp</label>
+                <input name="contato" id="radio-whatsapp" type="radio" value = "whatsapp"> 
+
+                </fieldset>
+
+
+                <fieldset>
+                <p>Qual Horario você prefere ser atendido</p>
+                <select name="" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+                </fieldset>
+
+                <label>Gostaria de receber nossas novidades por e-mail? <input class="checkbox" type="checkbox"></label>
+
+                   <input class="input-padrao" type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
     <footer>
         <div>
-            <img src="logo-branco.png" alt="Logo branco alura.">
+            <img src="../Produtos/logo-branco.png" alt="Logo branco alura.">
             <p>&copy;Corpright Barbearia Alura 2019</p>
         </div>
     </footer>
