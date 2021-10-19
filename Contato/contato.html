@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contatos</title>
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="../Produtos/produtostyle.css">
-    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="../Contato/contato.css">
 </head>
 <body>
     <header>
@@ -50,11 +50,8 @@
                 <label for="radio-whatsapp">Whatsapp</label>
                 <input name="contato" id="radio-whatsapp" type="radio" value = "whatsapp"> 
 
-                </fieldset>
-
-
-                <fieldset>
-                <p>Qual Horario você prefere ser atendido</p>
+                
+                <legend>Qual Horario você prefere ser atendido</legend>
                 <select name="" id="">
                     <option value="">Manhã</option>
                     <option value="">Tarde</option>
@@ -64,8 +61,31 @@
 
                 <label>Gostaria de receber nossas novidades por e-mail? <input class="checkbox" type="checkbox"></label>
 
-                   <input class="input-padrao" type="submit" value="Enviar">
+                   <input class="Enviar" type="submit" value="Enviar">
             </form>
+
+            <table>
+				<thead>
+					<tr>
+						<th>Dia</th>
+						<th>Horário</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Segunda</td>
+						<td>8h ~ 20h</td>
+					</tr>
+					<tr>
+						<td>Quarta</td>
+						<td>8h ~ 20h</td>
+					</tr>
+					<tr>
+						<td>Sexta</td>
+						<td>8h ~ 20h</td>
+					</tr>
+				</tbody>
+			</table>      
         </div>
     </main>
     <footer>

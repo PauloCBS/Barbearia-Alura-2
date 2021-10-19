@@ -30,3 +30,39 @@ form label, form legend {
 fieldset {
     border: none;
 }
+
+.Enviar {
+    width: 40%;
+    padding 15px 0;
+    height: 25px;
+    background-color: coral;
+    text-decoration: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Enviar:hover {
+
+    background-color: tomato;
+    transition: 2s all;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 20px 0 40px;
+
+}
+
+thead {
+    background-color: rgb(22, 21, 21);
+    color: white;
+    font-size: bold;
+}
+
+th, tr {
+    border: 1px solid black;
+    padding: 15px 10px;
+}
