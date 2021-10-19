@@ -1,61 +1,140 @@
-.cabeçalho{
-    text-align: left;
-    margin-left: 15px;
+header{
+    background-color: #bbbbbb;
+    padding: 20px 0 ;
 }
 
-body{
-    background-color: honeydew;
+
+.caixa {
+    position: relative;
+	width: 100%;
+	margin: 0 auto;
+    }
     
+nav{
+    position: absolute;
+	top: 110px;
+	right: 0;
+    padding-right: 30px;
 }
 
-img{
- width: 100%;
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
-.principal{
-    background-color: grey;
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+
 }
 
-.titulo1 {
-
-    text-align: center;
-}
-p {
-
-    text-align: center;
+nav a:hover{
+    color: coral;
+    text-decoration: underline;
 }
 
-#missao {
-
-    font-size: 20px;
+nav a:active {
+    color: darkgrey;
 }
 
-em strong{
+main{
+    width: 100%;
+}
+.produtos{
+    width: 90%;
+	margin: 0 auto;
+	padding: 50px 0;
 
-    color: red;
 }
 
-ul {
+
+.produtos li {
     display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right:20% ;
-    padding: 30px;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
 }
 
-ul li {
-    font-style: italic;
-    
-}
-.beneficios{
-    background-color: honeydew;
+.produtos li:hover{
 
+    color: coral;
+    border-color: coral;
 }
-h2{
+
+.produtos li:hover h2{
+    font-size: 34px;
+    font-style: bold;
+}
+
+.produtos li:active {
+    color: darkgrey;
+    border-color: darkgrey;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+.descrição{
+    font-size: 18px;
+}
+
+.Preço {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer div {
+    background: url(../Produtos/bg.jpg);
     text-align: center;
 }
+footer p {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.banner {
 
-.imagem-beneficios {
-    width: 50%;
-    padding:  20px;
+    width: 100%;
+}
+
+.titulo1{
+    text-align: center;
+    font-size: 2em;
+    padding: 1em  1em;
+}
+
+.principal p {
+    margin: 1em;
+}
+.principal strong{
+
+font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.imagem-beneficios{
+    width: 60%;
+}
+
+.utensilios{
+
+    width: 12%;
+    float: left;
+    margin-left: 1em ;
+    margin-right: 1em;
 }
